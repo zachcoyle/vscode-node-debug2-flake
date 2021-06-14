@@ -1,0 +1,109 @@
+{
+  "nodes": {
+    "devshell": {
+      "locked": {
+        "lastModified": 1622711433,
+        "narHash": "sha256-rGjXz7FA7HImAT3TtoqwecByLO5yhVPSwPdaYPBFRQw=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "1f4fb67b662b65fa7cfe696fc003fcc1e8f7cc36",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1623660459,
+        "narHash": "sha256-OTmOsh43po7r5F9s9H6lVCBQ2b0FikWbmiwLbMAGRdw=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "98c8d36b1828009b20f12544214683c7489935a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "napalm": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1604997796,
+        "narHash": "sha256-XxRQvE8FbmaUn5F0VFRt9x9Yg/dJJx8O2ZkeGtUsHTg=",
+        "owner": "nmattia",
+        "repo": "napalm",
+        "rev": "7c0c62207b6e70168dab91ba85d7d2568c3e0157",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nmattia",
+        "repo": "napalm",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1623676533,
+        "narHash": "sha256-bpa5DdT3Zhue+2mzlE3WLY/wim66rkG1K3u62P9NieI=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "7823c13074517cd2ce8d2e11bb53e444d504783e",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1623176226,
+        "narHash": "sha256-54a9uvHlIlK3i0b36HfGMc4zqM0BpMOOiFYBxEhQFK8=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "51bb9f3e9ab6161a3bf7746e20b955712cef618b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "devshell": "devshell",
+        "flake-utils": "flake-utils",
+        "napalm": "napalm",
+        "nixpkgs": "nixpkgs_2",
+        "vscode-node-debug2-src": "vscode-node-debug2-src"
+      }
+    },
+    "vscode-node-debug2-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1621362366,
+        "narHash": "sha256-a4Uy7Ov78ucfXvyHTQ/3Q+EI39EMKpsJghga6+73JKU=",
+        "owner": "microsoft",
+        "repo": "vscode-node-debug2",
+        "rev": "ac803005f392cdc221a2d7be2722af39c870783d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "microsoft",
+        "repo": "vscode-node-debug2",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
